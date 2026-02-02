@@ -26,10 +26,16 @@ blur_detection_openai/
 ---
 
 ## ⚙️ Teknologi yang Digunakan
-- flask
 - opencv-python-headless
+- numpy
 - pandas
+- python-dotenv
 - openai
+- Pillow
+- requests
+- python-dotenv
+- flask
+
 
 
 > ❗ Project ini **bergantung pada API eksternal** [link](https://openrouter.ai/openai/gpt-oss-20b:free/api)
