@@ -1,4 +1,9 @@
-flask
 opencv-python-headless
+numpy
 pandas
+python-dotenv
 openai
+Pillow
+requests
+python-dotenv
+flask
