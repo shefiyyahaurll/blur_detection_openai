@@ -38,7 +38,7 @@ blur_detection_openai/
 
 
 
-> ❗ Project ini **bergantung pada API eksternal** [link](https://openrouter.ai/openai/gpt-oss-20b:free/api)
+> ❗ Project ini **bukan bergantung pada API eksternal** [link](https://platform.openai.com/api-keys)
 
 
 ---
