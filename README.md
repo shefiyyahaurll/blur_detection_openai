@@ -58,7 +58,7 @@ docker build -t blur-openai .
 ### 3️⃣ Jalankan Container
 ```bash
 docker run -p 8000:8000 ^
--e OPENAI_API_KEY=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 ^
+-e OPENAI_API_KEY=sk-............... ^
 -v C:\test\BLUR_DETECTION_OPENAI\images:/app/images ^
 -v C:\test\BLUR_DETECTION_OPENAI\output:/app/output ^
 blur-openai
