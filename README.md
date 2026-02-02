@@ -93,7 +93,7 @@ output/summary.csv
 
 ---
 
-## 🧪 Kriteria Blur
+## 🧪 Flow
 Threshold blur dapat diatur di `app.py`:
 ```python
 THRESHOLD = 100
