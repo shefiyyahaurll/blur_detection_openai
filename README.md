@@ -92,13 +92,35 @@ Threshold blur dapat diatur di `app.py`:
 ```python
 THRESHOLD = 100
 ```
-Image masuk
-   ↓
-Hitung blur score
-   ↓
-Apakah blur?
-   ├── YA  → return "blur"
-   └── TIDAK → kirim ke OpenAI → return deskripsi
+        ┌──────────────┐
+        │   Input Image│
+        └──────┬───────┘
+               ↓
+      ┌──────────────────┐
+      │ Convert to Gray  │
+      └──────┬───────────┘
+               ↓
+      ┌──────────────────┐
+      │ Apply Laplacian  │
+      └──────┬───────────┘
+               ↓
+      ┌──────────────────┐
+      │ Compute Variance │
+      └──────┬───────────┘
+               ↓
+      ┌──────────────────────────┐
+      │ blur_score < threshold ? │
+      └──────┬───────────┬──────┘
+             YES          NO
+              ↓            ↓
+        ┌─────────┐  ┌─────────────────┐
+        │  BLUR   │  │ Call OpenAI API │
+        └─────────┘  └────────┬────────┘
+                                ↓
+                       ┌─────────────────┐
+                       │ Image Description│
+                       └─────────────────┘
+
 
 ---
 
