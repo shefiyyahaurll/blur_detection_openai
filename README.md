@@ -7,7 +7,6 @@ Project ini adalah aplikasi **Blur Detection** berbasis Python yang digunakan un
 - Menghasilkan **file CSV ringkasan** hasil analisis
 - Dijalankan sepenuhnya menggunakan **Docker** (tanpa setup Python manual)
 
-Aplikasi ini cocok untuk kebutuhan **tugas kuliah / eksperimen computer vision sederhana**.
 
 ---
 
