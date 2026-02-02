@@ -106,11 +106,5 @@ THRESHOLD = 100
 
 ---
 
-## 👨‍🎓 Penutup
-Project ini dibuat untuk memenuhi kebutuhan **analisis blur gambar sederhana** dengan pendekatan yang **praktis dan portable**.
-
-Silakan dikembangkan lebih lanjut sesuai kebutuhan.
-
----
 
 ✨ *Happy Coding!*
